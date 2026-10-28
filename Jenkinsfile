@@ -1,1 +1,1 @@
-﻿pipeline { agent any; stages { stage('Hola') { steps { echo 'Exito' } } } }
+﻿pipeline { agent any; stages { stage('Build') { steps { echo 'OK' } } } }
